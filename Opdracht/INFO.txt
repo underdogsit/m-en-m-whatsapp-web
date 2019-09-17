@@ -1,0 +1,7 @@
+Website url:
+https://web.whatsapp.com/
+
+Opdracht:
+- Namaken van Whatsapp Web, in React, uiteraard alles opdelen in componenten. 
+- Het hoeft niet werken (dus geen chatten, qr-code generator e.d.)
+- Als het kan, en lukt -> responsive maken
