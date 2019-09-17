@@ -3,7 +3,6 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Chat from "./pages/Chat";
 import Login from "./pages/Login";
 
-// html
 const App = () => {
   return (
     <BrowserRouter>
