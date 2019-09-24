@@ -11,7 +11,7 @@ const Chat = () => {
 
   return (
     <Background>
-      <h1>chat</h1>
+      <h1>Maurice</h1>
     </Background>
   );
 };
