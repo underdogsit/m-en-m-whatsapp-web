@@ -7,7 +7,7 @@ const useStyles = makeStyles(theme => ({
 }))
 
 // html
-const Chat = () => {
+const Login = () => {
   const classes = useStyles();
 
   return (
@@ -17,4 +17,4 @@ const Chat = () => {
   )
 }
 
-export default Chat
+export default Login

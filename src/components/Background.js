@@ -1,26 +1,25 @@
 import React from 'react'
 import { makeStyles } from "@material-ui/core/styles";
-
+import Whatsapplogo from './WhatsappLogo';
 
 const useStyles = makeStyles(theme => ({
 	topBackground: {
 		backgroundColor: theme.palette.primary.main,
-		height: "20vh"
+		height: "20%",
 	},
 	bottomBackground: {
 		backgroundColor: theme.palette.primary.light,
-		marginTop: "20vh",
-		height: "80vh",
+		height: "80%vh",
 		zIndex: -999
 	},
-	standardSize: {
+		standardSize: {
 		width: "100%",
 		position: "absolute",
 		zIndex: -999
-	},
+		},
 	childrenStyles: {
-		zIndex: 1
-	}
+		zIndex: 1,
+	},
 }));
 
 const Background = props => {
@@ -28,7 +27,9 @@ const Background = props => {
 	return (
 		<>
 			<section className={[classes.topBackground, classes.standardSize].join(" ")}/>
+			<Whatsapplogo/>
 			<section className={[classes.bottomBackground, classes.standardSize].join(" ")}/>
+			
 			<div className={classes.childrenStyles}>
 				{props.children}
 			</div>
