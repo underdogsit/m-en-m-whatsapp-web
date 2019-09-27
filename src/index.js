@@ -10,7 +10,13 @@ const theme = createMuiTheme({
 	  primary: {
 		 main: "#1EBDA4",
 		 light: "#d8dbd5",
-		 dark: "#3b3b3b"
+		 dark: "#3b3b3b",
+
+		 grijs: "#e4dcd9",
+		 lichtgrijs: "#eeeeee",
+		 wit: "#fefefe",
+		 ballon: "#fff",
+		 lichtergrijs: "#eeedeb",
 	  }
 	}
  });
